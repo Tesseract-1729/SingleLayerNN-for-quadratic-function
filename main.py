@@ -103,7 +103,7 @@ ax.plot(X.numpy(), predicted.numpy(), linestyle="-", linewidth=4, color="#d95f02
 
 ax.yaxis.set_major_locator(plt.MultipleLocator(50000))
 
-ax.set_title("Confronto tra funzione e esatta e funzione predetta dalla rete", pad=20, fontsize=20, fontweight="bold")
+ax.set_title("Confronto tra funzione esatta e funzione predetta dalla rete", pad=20, fontsize=20, fontweight="bold")
 
 ax.legend()
 plt.show()
